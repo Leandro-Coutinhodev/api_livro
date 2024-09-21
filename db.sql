@@ -1,0 +1,10 @@
+CREATE DATABASE livros;
+CREATE TABLE livro(
+  id SERIAL,
+  titulo VARCHAR(100) NOT NULL,
+  autor VARCHAR(100) NOT NULL,
+  editora VARCHAR(50) NOT NULL,
+  ano INTEGER NOT NULL,
+  
+  CONSTRAINT livro_pk PRIMARY KEY(id)
+);
