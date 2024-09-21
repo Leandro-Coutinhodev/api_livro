@@ -12,7 +12,6 @@ $container = new Container;
 $container->load((new Services)->getServices());
 //inicia a aplicação
 try {
-  //require __DIR__ . '/App/Services/Definitions.php';
   RoutesScan::scanClassAndMethod(__DIR__ . '/App/Controllers', $container);
   $httpRoutes = $container->getContainer()->get(HttpRoutes::class);
   $httpRoutes->registerRoutes();
