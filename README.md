@@ -1,5 +1,5 @@
-# api_livro(CRUD simples)
-Api de registro de livros em php com arquitetura REST e PostgreSQL.
+# api_livro_php
+Api de registro de livros em php com arquitetura REST e PostgreSQL(CRUD simples).
 
 ## Endpoints:
 
